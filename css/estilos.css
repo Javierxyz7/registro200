@@ -1,0 +1,49 @@
+.password-container {
+    position: relative;
+}
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+.input-error {
+    border-color: red;
+}
+input[type="password"]::-ms-reveal {
+    display: none;
+}
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+.btn-lg-custom {
+    width: 100%;
+}
+.form-links {
+    text-align: center;
+    margin-top: 10px;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.form-container {
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Aumenta la anchura máxima del formulario */
+}
