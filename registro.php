@@ -69,7 +69,7 @@
                         <option value="">Selecciona tu ciudad</option>
                     </select>
                 </div>
-                <div class="g-recaptcha" data-sitekey="6LdOYO8qAAAAAN5_S_NhmwuZtvlevPpCHBGWcAbD"></div>
+                <div class="g-recaptcha" data-sitekey=""></div>
 
                 <div class="btn-center">
                     <button type="submit" id="registrar" name="registrar" class="btn btn-primary btn-lg btn-lg-custom">Registrar</button>

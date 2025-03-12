@@ -11,7 +11,7 @@ if(isset($_POST['registrar'])) {
         strlen($_POST['confirm-password']) >= 1) {
 
         // Validar el reCAPTCHA
-        $recaptcha_secret = '6LdOYO8qAAAAAN_PnqYi2guiEqjCV9scQIJUKH7d';
+        $recaptcha_secret = '';
         $recaptcha_response = isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : '';
 
         if (empty($recaptcha_response)) {
